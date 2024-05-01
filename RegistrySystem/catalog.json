@@ -1,0 +1,45 @@
+{
+    "projectOwner": "SPHINX",
+    "projectName": "SmartHospital IoT Sevice",
+    "broker": {
+        "IP": "mqtt.eclipseprojects.io",
+        "port": 1883,
+        "main_topic": "SmartHospital308/"
+    },
+    "RegistrySysteminfo": {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "IPaddress": " ",
+    "dataList": [
+        "ECG",
+        "glucometer",
+        "termometer",
+        "bloodpressure",
+        "oximeter",
+        "RR",
+        "status",
+        "HR"
+    ],
+    "patientsList": [
+    ],
+    "deviceConnectorList": [],
+    "nursesList": [
+        {
+            "nurseID": 1,
+            "nurseName": "Gini Bertens",
+            "nurseBirthDate": "1978-06-09",
+            "patients": [
+                "2",
+                "1"
+            ],
+            "chatID": 704532910
+        }
+    ],
+    "serviceList": [],
+    "counter": {
+        "deviceConnectorCounter": 0,
+        "serviceCounter": 0,
+        "nurseCounter": 2
+    }
+}
